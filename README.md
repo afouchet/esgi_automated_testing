@@ -247,3 +247,8 @@ Etapes:
 - La fonction "eval_position" pourrait être améliorée. Si une pièce est bloquée (il y a des pièces adverses qui l'empêche de faire puissance 4), elle ne vaut plus rien. Créer de nouveaux tests où la valeur d'une pièce correspond au nombre d'alignements qu'elle peut faire. Implémenter le code.
 
 
+# A rendre
+
+Envoyez le zip de votre tests/ et src/ à foucheta@gmail.com
+
+Avant le 8 février midi.
