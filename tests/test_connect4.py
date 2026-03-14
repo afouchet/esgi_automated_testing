@@ -18,7 +18,6 @@ def test_display_board__empty():
 |      |
 |      |
 |      |
-͞͞͞͞͞͞͞ 
 """
 
     # When
@@ -44,7 +43,6 @@ def test_display_board__after_some_plays():
 |      |
 | O    |
 | OX   |
-͞͞͞͞͞͞͞ 
 """
 
     # When
