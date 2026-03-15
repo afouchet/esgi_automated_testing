@@ -5,7 +5,7 @@ def main():
     print("Let's play connect4!")
     game = connect4.Connect4()
 
-    while not game.has_ended():
+    while not game.get_winner_id():
         col_played = game.ask_user_his_column()
         game.play_column(col_played)
 
