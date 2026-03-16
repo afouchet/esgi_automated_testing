@@ -29,7 +29,7 @@ def test_display_board__empty():
     assert board == expected_board
 
 
-def test_play_column():
+def tst_play_column():
     # Given
     game = connect4.Connect4()
     expected_board = [
@@ -49,7 +49,7 @@ def test_play_column():
     assert game._board == expected_board
 
 
-def test_play_column__2_plays():
+def tst_play_column__2_plays():
     # Given
     game = connect4.Connect4()
     expected_board = [
@@ -70,7 +70,7 @@ def test_play_column__2_plays():
     assert game._board == expected_board
 
 
-def test_display_board__after_some_plays():
+def tst_display_board__after_some_plays():
     """Testing the display of after 3 plays
     Player 1 will put a coin in col 2
     Player 2 will put a coin in col 3
@@ -97,7 +97,8 @@ def test_display_board__after_some_plays():
     # Then
     assert board == expected_board
 
-def test_get_winner_id__vertical_case():
+
+def tst_get_winner_id__vertical_case():
     """Player 1 will play 4 times in column 2,
     Player 2 will play 3 times in column 3,
     -> Player 1 wins
