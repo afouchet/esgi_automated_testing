@@ -49,26 +49,30 @@ Vous devriez voir que 3 tests ont été trouvés, qu'1 est vert et 2 sont rouges
 ### 1.1. Implémenter le cas simple: retourner une grille vide
 
 Notre jeu doit afficher la grille. Par exemple <br/>
-"<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-"
+```python
+"""
+|      |
+|      |
+|      |
+|      |
+|      |
+|      |
+|      |
+"""
+```
 
 Pour une grille vide, ou <br/>
-"<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-|      |<br/>
-| O    |<br/>
-| OX   |<br/>
-"
+```python
+"""
+|      |
+|      |
+|      |
+|      |
+|      |
+| O    |
+| OX   |
+"""
+```
 
 Pour une grille ou les joueurs ont joué 2 fois dans la colonne 2, et une fois dans la colonne 3.
 
